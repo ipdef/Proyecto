@@ -1,0 +1,23 @@
+/*SECCION4*/
+
+.seccion4 h2 {
+    width: 70%;
+    margin: auto;
+    font-size: 40px;
+    color: #060A24;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+    
+.entrevistas-img  {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+.entrevistas-img img{
+    width: 30%;
+    height: auto;
+}

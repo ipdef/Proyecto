@@ -1,0 +1,37 @@
+
+/*SECCION3*/
+main .seccion3{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figura{
+    width: 35%;
+    margin: auto;
+}
+.img{
+    height: 660px;
+    position: relative;
+}
+.descripcion{
+    width:35%;
+    margin: auto;
+}
+.descripcion h2{
+   font-size: 48px;
+   color: #060A24;
+   position: relative;
+}
+
+.descripcion p {
+   font-family: "IBM Plex Mono", monospace;
+   font-size: 16px;
+   color: #060A24;
+   text-align: justify;
+   width: 70%;
+   height: auto;
+   position: relative;
+}

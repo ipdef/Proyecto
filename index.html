@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="partials/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a582e75672.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="logo" class="logo"/>
+        <nav>
+            <div class="menu">
+                <input type="checkbox" id="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul>
+                    <li><a href="#podcast-episodios">episodios</a></li>
+                    <li><a href="#podcast-nosotros">nosotros</a></li>
+                    <li><a href="#podcast-entrevistas">entrevistas</a></li>
+                    <li><a href="#podcast-topicos">tópicos</a></li>
+                </ul>
+            </div>
+        </nav>    
+    </header>
+    <main>
+        <section class="seccion1">
+            <h1>Hello <s>world</s> pale blue dot</h1>
+            <article>
+                <p>El portal de podcasts que explora el mundo de la programación y
+                    la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+                <button>Conocé Más</button>
+            </article>
+        </section>
+        <section class="seccion2" id="podcast-episodios">
+            <div class="episodio"></div>
+            <h2>Episodios</h2>
+            <div class="iframes">
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"  allow="encrypted-media"></iframe> 
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" allow="encrypted-media"></iframe>
+                    <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+            </div>
+        </section> 
+        <section class="seccion3" id="podcast-nosotros">
+            <figure class="figura">
+                <img class="img" src="images/phone.png" alt="Phone">
+            </figure>
+            <div class="descripcion"> 
+              <h2>De dónde venimos</h2>  
+              <p>Nuestras posturas, nuestra supuesta importancia personal, la ilusión de que tenemos una posición privilegiada en el Universo, son desafiados por este punto de luz pálida.
+                Nuestro planeta es una mota solitaria en la gran oscuridad cósmica envolvente. En nuestra oscuridad, en toda esta inmensidad, no hay indicios de que la ayuda vendrá de otra 
+                parte para salvarnos de nosotros mismos.</p>
+            </div>
+        </section>
+        <section class="seccion4" id="podcast-entrevistas">
+            <h2>Entrevista</h2>
+            <div class="entrevistas-img">
+                <img src="images/grace-hopper.png" alt="grace-hopper">
+                <img src="images/Katie-Bouman.png" alt="Katie-Bouman">
+                <img src="images/Margaret_Hamilton.png" alt="Margaret_Hamilton">
+                <img src="images/computer_in_the_1950s.png" alt="computer_in_the_1950s">
+                <img src="images/first_programmable_general_purpose_computer.png" alt="first_programmable_general_purpose_computer">
+                <img src="images/susan-kare.png" alt="susan-kare">
+            </div>
+        </section>
+        <section class="seccion5" id="podcast-topicos"> 
+            <h2>Tópicos</h2> 
+            <div class="topicos-contenedor">
+                <div class="topicos">
+                    <img src="images/icon1.svg" alt="Trabajo Remoto">
+                    <p>Trabajo remoto</p>
+                </div>
+                <div class="topicos">
+                     <img src="images/icon2.svg" alt="Programación">
+                     <p>Repensando la programación</p>
+                 </div>
+                 <div class="topicos">
+                         <img src="images/icon3.svg" alt="Código">
+                         <p>Bases del código</p>
+                 </div>
+                 <div class="topicos">
+                         <img src="images/icon4.svg" alt="Seguridad">
+                         <p>Seguridad informatica</p>
+                 </div>
+            </div>
+         </section>
+    </main>
+    <footer class="footer">
+        <div class="redes-sociales">
+            <p>© CopyRight</p>
+            <div>
+                <i class="fab fa-spotify" id="spotify"></i>
+                <i class="fab fa-instagram" id="instagram"></i>
+                <i class="fab fa-twitter" id="twitter"></i>
+                <i class="fab fa-facebook" id="facebook"></i>
+                <i class="fab fa-telegram" id="telegram"></i>
+            </div>   
+        </div>
+    </footer>
+</body>
+</html>

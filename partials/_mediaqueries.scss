@@ -1,0 +1,119 @@
+ /**media*/
+ @media screen and (min-width: 1000px){
+    header nav .menu ul {
+        position: relative;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        background: unset;
+        height: unset;
+    }
+    header nav .menu  ul li {
+        padding: 5px 10px;
+        display: inline-block;
+    } 
+    header nav .menu  ul li:hover {
+        background: unset;
+        border-bottom: 2px solid black;
+    } 
+    header nav .menu ul li a {
+        padding: unset;
+        line-height: unset;
+    }
+    header nav .menu  ul li a:hover {
+        color: unset;
+    } 
+    header nav .menu input {
+        display: none;
+    }
+    header nav .menu span {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 550px){
+
+    main .seccion1 article button{
+        width: 100%;
+    };
+    main .seccion2 h2{
+        text-align: center;
+    }
+    
+    main .seccion3{
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    main .seccion3 h2{
+        text-align: center;
+    }
+    
+    main .seccion3 .figura {
+        width: 100%;
+        text-align: center;
+    } 
+    main .seccion3 .descripcion {
+        width: 100%;
+        text-align: center;
+    } 
+    main .seccion3 .descripcion p {
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+    } 
+
+/*SECCION4*/
+    main .seccion4 {
+        width: 100%;
+        text-align: center;
+    }
+    main .seccion4 .entrevistas-img img{
+        width: 100%;
+    }
+
+/*SECCION5*/
+    main .seccion5 {
+        width: 100%;
+        text-align: center;
+    }
+    main .seccion5 h2{
+        width: 100%;
+    }
+    main .seccion5 .topicos-contenedor{
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    main .seccion5 .topicos-contenedor .topicos{
+        width: 100%;
+    }
+    
+/*FOOTER*/
+    
+    .footer {
+        width: 100%;
+        
+    }
+    .footer .redes-sociales{
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+    }
+    .footer .redes-sociales p{
+        width: 100%;
+    }
+    .redes-sociales div i{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 1000px){
+    .descripcion h2{
+        width: 100%;
+    }
+     
+    .descripcion p {
+        width: 100%;
+    }
+}

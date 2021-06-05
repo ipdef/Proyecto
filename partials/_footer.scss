@@ -1,0 +1,45 @@
+ /*FOOTER*/
+
+ .footer {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: auto;
+    text-align: center;
+}
+.footer p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #060A24;
+    line-height: 28px;  
+}
+.redes-sociales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+}
+
+.redes a i{
+    color: black;
+ }
+ 
+#spotify {
+    margin-right: 30px;
+}
+
+#instagram {
+   margin-right: 30px;
+}
+
+#twitter {
+   margin-right: 30px;
+}
+
+#facebook {
+   margin-right: 30px;
+}
+
+#telegram {
+   margin-right: 30px;
+}
